@@ -1,0 +1,20 @@
+.greetings {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Prompt", sans-serif;
+
+  h1 {
+    font-size: 6.3rem;
+    letter-spacing: .5rem;
+    margin: 0;
+    padding-top: 5rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+  }
+}

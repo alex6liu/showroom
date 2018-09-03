@@ -1,0 +1,60 @@
+@import "../variables";
+
+form {
+  align-items: center;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: $black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0 2rem;
+    text-transform: uppercase;
+  }
+
+  input {
+    border: 0;
+    border-radius: 1rem;
+    display: block;
+    height: 1.3rem;
+    margin: .5rem 0;
+    outline: none;
+    text-transform: capitalize;
+    width: 12rem;
+
+    ::placeholder {
+      color: $black;
+    }
+  }
+
+  .form-input {
+    padding-left: 1.5rem;
+  }
+
+  .name {
+    background: url("../../static/other/Name.png") no-repeat -2.8rem $darkgray;
+  }
+
+  .email {
+    background: url("../../static/other/email.png") no-repeat -2.8rem $darkgray;
+  }
+
+  .password {
+    background: url("../../static/other/password.png") no-repeat -2.8rem $darkgray;
+  }
+
+  .form-submit {
+    background: transparent;
+    border: 1px solid $black;
+    color: $black;
+    margin: 50px;
+    text-align: center;
+  }
+
+  span {
+    color: $black;
+    text-decoration: none;
+  }
+}

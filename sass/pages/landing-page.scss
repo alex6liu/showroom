@@ -1,0 +1,20 @@
+
+.greetings {
+
+  p {
+    margin: 2.5rem 0 1rem;
+  }
+}
+
+.product-line {
+  margin-top: 5rem;
+
+  .black {
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}

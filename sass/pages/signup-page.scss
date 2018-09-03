@@ -1,0 +1,82 @@
+@import "../variables";
+
+.phone-module {
+  align-items: flex-end;
+  bottom: 0;
+  display: flex;
+  position: absolute;
+
+  .side-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-between;
+  }
+
+  .side-components {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      font-family: "Prompt", sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    img {
+      width: 250px;
+    }
+
+    .white-arrow {
+      left: 65px;
+      position: relative;
+    }
+  }
+
+  .phone-login {
+    background: url("../../static/other/phone-login.png") no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 550px;
+  }
+
+  .phone-background {
+    @include phone-div;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .progress-bar {
+      margin: 0;
+
+      .step-text {
+        display: none;
+      }
+    }
+
+    .step-bar {
+
+      img {
+        height: 30px;
+        width: 30px;
+      }
+
+      div {
+        background-color: $black;
+        margin: 0 .5rem;
+        width: 50px;
+      }
+    }
+  }
+}
+
+
+

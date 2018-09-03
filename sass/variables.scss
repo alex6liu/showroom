@@ -1,0 +1,26 @@
+$purple: #fe2bb8;
+$blue: #0ec5cb;
+$trans-purple: rgba(254, 43, 184, .637);
+$trans-blue: rgba(14, 197, 203, .637);
+$white: #fff;
+$trans-white: rgba(255, 255, 255, .534);
+$black: #000;
+$darkgray: #a9a9a9;
+
+@mixin circle {
+  border-radius: 150px;
+  height: 300px;
+  margin: .5rem;
+  width: 300px;
+}
+
+@mixin phone-div {
+  background-color: $trans-white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: .2rem;
+  margin-top: 4.85rem;
+  width: 450px;
+}

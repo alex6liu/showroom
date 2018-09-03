@@ -1,0 +1,48 @@
+@import "../variables";
+
+.progress-bar {
+  margin: 1rem 0 2rem;
+}
+
+.step-text {
+  display: flex;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  span {
+    text-transform: uppercase;
+  }
+
+  .step1,
+  .step2,
+  .step3 {
+    color: $white;
+  }
+
+  .trans-step1,
+  .trans-step2,
+  .trans-step3 {
+    color: $trans-white;
+  }
+}
+
+.step-bar {
+  align-items: center;
+  display: flex;
+  margin: 0 .3rem;
+
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  div {
+    background-color: $white;
+    height: 1px;
+    margin: 1rem;
+    width: 300px;
+  }
+}
+

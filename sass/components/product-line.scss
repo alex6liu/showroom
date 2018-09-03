@@ -1,0 +1,13 @@
+@import "../variables";
+
+.product-line {
+  display: flex;
+
+  img {
+    @include circle;
+  }
+
+  .black {
+    @include circle;
+  }
+}

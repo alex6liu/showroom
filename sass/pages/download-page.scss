@@ -1,0 +1,40 @@
+@import "../variables";
+
+.greetings {
+
+  p {
+    margin: .5rem;
+  }
+}
+
+.phone-module {
+  align-items: flex-end;
+  bottom: 0;
+  display: flex;
+
+  button {
+    margin: 0 5rem 6rem;
+  }
+
+  .phone-qr {
+    background: url("../../static/other/phone-code.png") no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 550px;
+
+    div {
+      @include phone-div;
+      height: 465px;
+    }
+
+    img {
+      height: 350px;
+      margin-top: 3rem;
+      width: 350px;
+    }
+  }
+}
